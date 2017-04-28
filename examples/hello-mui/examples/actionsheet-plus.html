@@ -82,6 +82,7 @@
 		});
 		var info = document.getElementById("info");
 		document.getElementById("picture-btn").addEventListener('tap',function () {
+<<<<<<< HEAD
 			var btnArray = [{title:"拍照或录像"},{title:"选取现有的"}];
 			plus.nativeUI.actionSheet( {
 				title:"选择照片",
@@ -102,6 +103,28 @@
 						break;
 				}
 				info.innerHTML = text+"\"按钮";
+=======
+			var btnArray = [{title:"拍照或录像"},{title:"选取现有的"}];
+			plus.nativeUI.actionSheet( {
+				title:"选择照片",
+				cancel:"取消",
+				buttons:btnArray
+			}, function(e){
+				var index = e.index;
+				var text = "你刚点击了\"";
+				switch (index){
+					case 0:
+						text += "取消";
+						break;
+					case 1:
+						text += "拍照或录像";
+						break;
+					case 2:
+						text += "选取现有的";
+						break;
+				}
+				info.innerHTML = text+"\"按钮";
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 			} );
 		});
 		document.getElementById("delete-btn").addEventListener('tap',function () {

@@ -178,11 +178,19 @@
     >.#{$namespace}slider-handle,>.#{$namespace}slider-left .#{$namespace}btn,>.#{$namespace}slider-right .#{$namespace}btn{
         -webkit-transition: -webkit-transform 0ms ease;
         transition: transform 0ms ease;
+<<<<<<< HEAD
 //      -webkit-backface-visibility: hidden;
 //      backface-visibility: hidden;
         }
      >.#{$namespace}slider-left,>.#{$namespace}slider-right{
 //      -webkit-backface-visibility: hidden;
+=======
+//      -webkit-backface-visibility: hidden;
+//      backface-visibility: hidden;
+        }
+     >.#{$namespace}slider-left,>.#{$namespace}slider-right{
+//      -webkit-backface-visibility: hidden;
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 //      backface-visibility: hidden;
         position: absolute;
         top: 0;

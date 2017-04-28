@@ -212,7 +212,11 @@
 	position: relative;
 	width: 100%;
 	height: 200px;
+<<<<<<< HEAD
 	/*border-top: solid 1px #eee;
+=======
+	/*border-top: solid 1px #eee;
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 	background-color: #fff;*/
 }
 .mui-ios .mui-dtpicker-body {

@@ -25,11 +25,19 @@
 .feedback p {
 	padding: 10px 15px 0;
 }
+<<<<<<< HEAD
 /*.feedback button#submit { 
 	width: 90%;
 	height: 46px;
 	left: 50%;
 	-webkit-transform: translate(-50%);
+=======
+/*.feedback button#submit { 
+	width: 90%;
+	height: 46px;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 }*/
 
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
@@ -107,10 +115,17 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
 .feedback .image-item.space .image-close {
 	display: none;
 }
+<<<<<<< HEAD
 .feedback .mui-inline{
 	vertical-align: bottom;
 	font-size: 14px;
 	color: #8f8f94;
+=======
+.feedback .mui-inline{
+	vertical-align: bottom;
+	font-size: 14px;
+	color: #8f8f94;
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 }
 .mui-icon-star{
 	color: #B5B5B5;

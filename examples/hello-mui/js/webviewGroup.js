@@ -180,7 +180,11 @@ proto.switchTab = function(id) {
 		this._checkDrags(toWebview); //新建的时候均需校验
 	}
 	var self = this;
+<<<<<<< HEAD
 //	console.log("current:" + fromWebview.id + ",to:" + fromToLeft);
+=======
+//	console.log("current:" + fromWebview.id + ",to:" + fromToLeft);
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 //	console.log("next:" + toWebview.id + ",from:" + toFromLeft);
 
 	plus.webview.startAnimation({

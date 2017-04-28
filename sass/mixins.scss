@@ -158,6 +158,7 @@ $z-layers: (
 // Misc
 // --------------------------------------------------
 @mixin hairline($type, $color, $offset) {
+<<<<<<< HEAD
     &:after{
         position: absolute;
         left: $offset;
@@ -194,6 +195,44 @@ $z-layers: (
 //                    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#{$color}' x='0' y='0' width='100%' height='0.5'/></svg>");
 //  background-position: $offset 100%, $offset 0;
 //}
+=======
+    &:after{
+        position: absolute;
+        left: $offset;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        background-color: $color;
+        content:'';
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+    }
+    @if $type == double {
+        &:before{
+            position: absolute;
+            left: $offset;
+            right: 0;
+            top: 0;
+            height: 1px;
+            background-color: $color;
+            content:'';
+            -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+    }
+//  background: repeat-x bottom left 
+//  url(data:image/gif;base64,R0lGODlhAQACAPABAMjHzP///yH/C1hNUCBEYXRhWE1QAz94cAAh+QQFAAABACwAAAAAAQACAAACAgwKADs=);
+//  background-size: 100% 1px;
+//@if $type == single {
+//  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#{$color}' x='0' y='0' width='100%' height='0.5'/></svg>");
+//  background-position: $offset 100%;
+//
+//} @else if $type == double {
+//  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#{$color}' x='0' y='0' width='100%' height='0.5'/></svg>"),
+//                    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1'><rect fill='#{$color}' x='0' y='0' width='100%' height='0.5'/></svg>");
+//  background-position: $offset 100%, $offset 0;
+//}
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 //background-repeat: no-repeat;
 }
 

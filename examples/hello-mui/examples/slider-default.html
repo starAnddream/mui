@@ -20,6 +20,7 @@
 			<h1 class="mui-title">图片轮播</h1>
 		</header>
 		<div class="mui-content">
+<<<<<<< HEAD
 			<ul class="mui-table-view mui-table-view-chevron">
 				<li id="switch" class="mui-table-view-cell">
 					定时轮播
@@ -27,6 +28,15 @@
 						<div class="mui-switch-handle"></div>
 					</div>
 				</li>
+=======
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li id="switch" class="mui-table-view-cell">
+					定时轮播
+					<div class="mui-switch">
+						<div class="mui-switch-handle"></div>
+					</div>
+				</li>
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 			</ul>
 		</div>
 		<div id="slider" class="mui-slider" >
@@ -80,6 +90,7 @@
 			mui.init({
 				swipeBack:true //启用右滑关闭功能
 			});
+<<<<<<< HEAD
 			var slider = mui("#slider");
 			document.getElementById("switch").addEventListener('toggle', function(e) {
 				if (e.detail.isActive) {
@@ -91,6 +102,19 @@
 						interval: 0
 					});
 				}
+=======
+			var slider = mui("#slider");
+			document.getElementById("switch").addEventListener('toggle', function(e) {
+				if (e.detail.isActive) {
+					slider.slider({
+						interval: 5000
+					});
+				} else {
+					slider.slider({
+						interval: 0
+					});
+				}
+>>>>>>> 94f36684d3014b66ca8e7b501ebd3c25b0b63214
 			});
 		</script>
 	</body>
